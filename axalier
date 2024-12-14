@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Axalier < Brainfuck
+  nxt 'ケッコンシヨウ'
+  inc '包丁'
+  prv '浮気'
+  dec '太陽神'
+  opn '女ァ!'
+  cls '妹'
+  put 'おハァ〜イコンシャスネス♡'
+  get 'メイド服'
+end
+
+puts Axalier.new.fuck(ARGF.read)
